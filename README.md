@@ -1,31 +1,35 @@
-# app-vue
+# vue-soundcloud
 
-> Vue.js project
+> Nuxt.js project
+
+# DEMO
+
+Check the [latest release](http://vue-soundcloud.s3-website-eu-west-1.amazonaws.com/).
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+$ npm install # Or yarn install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-# build for production with minification
-npm run build
+# build for production and launch server
+$ npm run build
+$ npm start
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
+# generate static project
+$ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
-VueJS Music Player
-
-![alt text](https://user-images.githubusercontent.com/19500703/32566277-5e325880-c4d9-11e7-9f1a-170a522cf675.png)
+<li class="nav-link ml-5 mr-4">Music</li>
+            <li class="nav-link  mr-4">Video Skit</li>
+            <li class="nav-link  mr-4">Music Libary</li>
+            <li class="nav-link  mr-4">My Account</li>
+          </ul>
+          <ul class="navbar-nav mr-5 login">
+            <li class="nav-link mr-4">Register</li>
+          <nuxt-link to="/"><li class="nav-link">Login</li></nuxt-link>
