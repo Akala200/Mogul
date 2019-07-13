@@ -19,7 +19,9 @@
     "lodash": "^4.17.4",
     "nuxt": "^1.0.0-rc11",
     "sass-loader": "^6.0.6",
-    "vue-slider-component": "^2.4.3"
+    "vue-slider-component": "^2.4.3",
+    "fix-absolute": "sed -i '/  .basedir.: /d' .nuxt/dist/server-bundle.json"
+
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
