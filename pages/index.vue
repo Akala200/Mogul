@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Playlist from '~/components/ThePlaylist.vue'
-import MainHeader from '~/components/TheHeader.vue'
-import MoreButton from '~/components/TheMoreButton.vue'
-import Player from '~/components/ThePlayer.vue'
+import Playlist from '~/components/Theplaylist.vue'
+import MainHeader from '~/components/Theheader.vue'
+import MoreButton from '~/components/Themorebutton.vue'
+import Player from '~/components/Theplayer.vue'
 export default {
   components: {
     MainHeader,

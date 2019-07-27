@@ -75,7 +75,7 @@
 </template>
 <script>
 import { returnMusicStream } from '../middleware/api'
-import Volume from '~/components/TheVolume'
+import Volume from '~/components/Thevolume'
 import _ from 'lodash'
 export default {
   components: {

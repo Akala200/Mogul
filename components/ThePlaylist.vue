@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import SongBox from '~/components/VSongBox.vue'
+import SongBox from '~/components/Vsongbox.vue'
 import { mapGetters } from 'vuex'
 export default {
   components: {
