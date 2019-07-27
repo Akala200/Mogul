@@ -1,4 +1,3 @@
-
 module.exports = {
   /*
   ** Headers of the page
@@ -31,23 +30,15 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-   plugins: [
-    new webpack.ProvidePlugin({
-      '$': 'jquery',
-      '_': 'lodash'
-      // ...etc.
+   extend (config, { isDev }) {
+    if (isDev && process.client) {
+    config.module.rules.push({
+    enforce: 'pre',
+    test: /\.(js|vue)$/,
+    loader: 'eslint-loader',
+    exclude: /(node_modules)/
     })
-  ],
-  extend (config, { isDev, isClient }) {
-    // ..
-    config.module.rules.push(
-       {
-         test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,
-         loader: 'file-loader',
-       }
-     )
-     // Sets webpack's mode to development if `isDev` is true.
-     if (isDev) config.mode = 'development'
-  }
+    }
+    }
   }
 }
