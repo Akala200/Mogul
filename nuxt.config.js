@@ -23,11 +23,8 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-  modules: ['@nuxtjs/axios'],
-  plugins: [
-    '~/plugins/axios',
-    '~/plugins/filters'
-  ],
+  modules: [],
+  plugins: [],
   /*
   /*
   ** Build configuration
