@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "webpack --mode production nuxt build",
+    "build": "production nuxt build",
     "start": "nuxt start",
     "heroku-postbuild": "npm run build",
     "generate": "nuxt generate",
