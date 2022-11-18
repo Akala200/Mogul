@@ -20,7 +20,7 @@
     "babel-loader": "^7.1.5",
     "lodash": "^4.17.4",
     "node-fetch": "2.6.0",
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "^3.0.0",
     "nuxt-babel": "^1.0.1",
     "sass-loader": "^6.0.6",
     "vue-slider-component": "^2.4.3"
